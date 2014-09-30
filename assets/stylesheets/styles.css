@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.page-section, .site-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.site-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 50em;
+  border-bottom: solid #990033 2px;
+  background-color: #fff;
+  margin: 0 auto;
+  /*height: 5em;*/
+}
+.container {
+  max-width: 50em;
+  margin: 0 auto;
+}
+.site-main {
+  padding-top: 5em;
+}
+/*.site-title {
+  font-size: 1.5em;
+  float: left;*/
+}
+/*.site-nav {
+  display: inline-block;
+  float: right;*/
+}
+.site-nav ol li {
+  float: left;
+  display: inline-block;
+}
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+ol {
+  list-style: none;
+  display: inline-block;
+}
+#about, #contact {
+  padding-left: 51.5%;
+}
+img {
+  max-width: 100%;
+}
+.image-gallery li {
+  width: 48.5%;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  list-style:none;
+  padding-left:0;
+  line-height: 0;
+}
+.image-gallery {
+  margin: 0;
+  padding: 0;
+}
+li:nth-child(2n) {
+  margin-right: 0;
+}
+li:nth-last-child(2) {
+  margin-bottom: 0;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+
+#contact h1 {
+  font-size: 1.5em;
+}
+#contact ul {
+  padding: 0;
+  list-style-position: inside;
+}
+.site-footer {
+  clear: both;
+  text-align: center;
+  color: gray;
+  border-top: solid #990033 2px;
+  /*width: 80%;*/
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
